@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-700">
+    <div class="container mx-auto px-4 my-10">
+        <div class="flex justify-center">
+            <div class="card text-white rounded-lg px-10 py-12 w-1/2">
+                <div class="text-right mb-4">
+                    <button class="inline-block bg-slate-700 px-3 py-2 rounded-lg" id="gotoQuesform">Add Questions</button>
+                </div>
+                <div id="containerList"></div>
+                <div class="text-right mt-4">
+                    <button class="inline-block bg-slate-700 px-3 py-2 rounded-lg" id="submitAns">Submit</button>
+                </div>
+                <div class="text-right mt-4">
+                    <button class="hidden bg-slate-700 px-3 py-2 rounded-lg" id="addQues">Add Question</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

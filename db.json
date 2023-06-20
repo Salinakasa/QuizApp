@@ -1,0 +1,37 @@
+{
+  "QuestionList": [
+    {
+      "id": 0,
+      "question": "Which is the name of the company we are working on?",
+      "options": [
+        "Webo Digital",
+        "Intuji",
+        "Webo Nepal",
+        "Webo Australia"
+      ],
+      "correct": "Webo Digital"
+    },
+    {
+      "id": 1,
+      "question": "Who is the bhai of Amod?",
+      "options": [
+        "Amid",
+        "Amit",
+        "Amity",
+        "Ashok"
+      ],
+      "correct": "Amit"
+    },
+    {
+      "question": "what is your name?",
+      "options": [
+        "name",
+        "hello",
+        "Ram Shyam",
+        "Sita"
+      ],
+      "correct": "Ram Shyam",
+      "id": 2
+    }
+  ]
+}
